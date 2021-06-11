@@ -1,0 +1,43 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  background: url(kx.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1 {
+  font-size: 3rem;
+  color:rgb(247, 133, 6)
+}
+
+hr {
+  border-color:rgb(35, 46, 199);
+  border-width: 500px;
+  max-width: 70px;
+}
+
+
+.btn-primary {
+  color: rgb(255, 255, 255);
+  border-color: rgb(71, 171, 247);;
+  background-color: rgb(71, 171, 247);
+}
+
+.btn{
+  font-weight: 700;
+  border-radius: 300px;
+}
+
+
+.btn-primary:hover {
+  background-color: rgb(140, 198, 243);;
+}
+
+.btn-xl{
+  padding: 1rem 2rem;
+}
