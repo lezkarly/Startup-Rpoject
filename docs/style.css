@@ -1,16 +1,78 @@
-body,
-html {
+
+
+/*body,
+html*/ 
+
+
+/*/////////////////////////////////////// Nav Bar ///////////////////////////////////*/ 
+.push {
+  margin-left: auto;
+}
+
+a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+a:hover{
+  color: #32aefe;
+  text-decoration: none;
+}
+
+li {
+  padding: 20px; 
+}
+
+.hot-pink{
+  background: #ff007d;
+   /*border-radius: 4px;*/
+}
+
+.main-nav{
+  display: flex;
+  list-style: none;
+  font-size: 1.1em;
+  margin:0;
+
+}
+
+@media only screen and (max-width: 600px) { /*As sson as the page is less than 600px, do this*/
+  .main-nav {
+    font-size: 0.9em;
+    padding: 0;
+  }
+
+
+}
+/*/////////////////////////////////////// Nav Bar ///////////////////////////////////*/ 
+
+/*/////////////////////////////////////// Cover ///////////////////////////////////*/ 
+/*.main-body{
+  background: #805f6f;
+  height:20px;
+  
+}*/
+
+.main-body{
+  display: flex;
+  /*height: 100vh;*/
   width: 100%;
-  height: 100%;
+  height:100%;
+  /*width: 876px;*//* vh makes things responsive v - viewport*/
   font-family: 'Montserrat', sans-serif;
-  background: url(kx.jpg) no-repeat center center fixed; 
+  background-image: url(kx.jpg); /*no-repeat center center fixed;*/
+  background-size: cover;
+  position:absolute;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
+ 
+
 }
 
+
 h1 {
+  margin-left: 70px;
   font-size: 3rem;
   color:rgb(247, 133, 6)
 }
@@ -29,6 +91,7 @@ hr {
 }
 
 .btn{
+  margin-left: 70px;
   font-weight: 700;
   border-radius: 300px;
 }
@@ -41,3 +104,48 @@ hr {
 .btn-xl{
   padding: 1rem 2rem;
 }
+/*/////////////////////////////////////// Cover ///////////////////////////////////*/ 
+
+/*/////////////////////////////////////// Footer ///////////////////////////////////*/
+
+.orange{
+  background:rgb(247, 133, 6);  
+}
+
+.footer-text {
+  display: flex;
+  font-size: 1.1em;
+  color: white;
+  margin-left: 910px;
+  margin-top: 10px;
+}
+
+footer{
+
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    height:50px;
+    width:100%;
+    background:rgb(247, 133, 6);  
+  /*display: flex;
+  font-size: 1.1em;
+  margin:0;*/
+
+}
+
+@media only screen and (max-width: 600px) { /*As sson as the page is less than 600px, do this*/
+  .footer {
+    font-size: 0.9em;
+    padding: 0;
+  }
+}
+
+
+/*
+.footer{
+  background: rgb(247, 133, 6);
+  margin:0;
+}*/
+
+/*/////////////////////////////////////// Footer ///////////////////////////////////*/

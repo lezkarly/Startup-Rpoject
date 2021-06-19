@@ -1,0 +1,125 @@
+/*/////////////////////////////////////// Nav Bar ///////////////////////////////////*/ 
+.push {
+    margin-left: auto;
+  }
+  
+  a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+  }
+  
+  a:hover{
+    color: #32aefe;
+    text-decoration: none;
+  }
+  
+  li {
+    padding: 20px; 
+  }
+  
+  .hot-pink{
+    background: #ff007d;
+  }
+  
+  .main-nav{
+    display: flex;
+    list-style: none;
+    font-size: 1.1em;
+    margin:0;
+  
+  }
+  
+  @media only screen and (max-width: 600px) { /*As sson as the page is less than 600px, do this*/
+    .main-nav {
+      font-size: 0.9em;
+      padding: 0;
+    }
+  
+  
+  }
+/*/////////////////////////////////////// Nav Bar ///////////////////////////////////*/ 
+
+/*/////////////////////////////////////// Main Body ///////////////////////////////////*/
+.main-body{
+  background: white;
+  width: 100%;
+  height: 55vh;
+}
+.cover{
+  width: 18rem;
+  height: 20rem;
+  align-items: center;
+}
+
+.slogan{
+  width: 38rem;
+  height: 25rem;
+  margin-left: 580px;
+}
+
+img {
+  margin-left: 820px;
+  margin-top: 20px;
+}
+
+/*.welcome-text {
+  color: rgb(247, 133, 6);
+  margin-left: 550px;
+  margin-top: 58px;
+  margin-bottom: -50px;
+}*/
+.welcome-text{
+  font-size: 3rem;
+}
+
+.description{
+  font-size: 1.1rem;
+}
+
+p {
+  color: #ff007d;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+.second-body {
+  background: #00aefe;
+  width:100%;
+  height: 50vh;
+}
+
+
+
+/*/////////////////////////////////////// Footer ///////////////////////////////////*/
+.orange{
+  background:rgb(247, 133, 6);  
+}
+
+.footer-text {
+  display: flex;
+  font-size: 1.1em;
+  color: white;
+  margin-left: 910px;
+  margin-top: 10px;
+}
+
+footer{
+
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    height:50px;
+    width:100%;
+    background:rgb(247, 133, 6);  
+
+
+}
+
+@media only screen and (max-width: 600px) { /*As sson as the page is less than 600px, do this*/
+  .footer {
+    font-size: 0.9em;
+    padding: 0;
+  }
+}
+
+/*/////////////////////////////////////// Footer ///////////////////////////////////*/

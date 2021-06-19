@@ -1,0 +1,89 @@
+/*/////////////////////////////////////// Nav Bar ///////////////////////////////////*/ 
+.push {
+    margin-left: auto;
+  }
+  
+  a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+  }
+  
+  a:hover{
+    color: #32aefe;
+    text-decoration: none;
+  }
+  
+  li {
+    padding: 20px; 
+  }
+  
+  .hot-pink{
+    background: #ff007d;
+  }
+  
+  .main-nav{
+    display: flex;
+    list-style: none;
+    font-size: 1.1em;
+    margin:0;
+  
+  }
+  
+  @media only screen and (max-width: 600px) { /*As sson as the page is less than 600px, do this*/
+    .main-nav {
+      font-size: 0.9em;
+      padding: 0;
+    }
+  
+  
+  }
+/*/////////////////////////////////////// Nav Bar ///////////////////////////////////*/ 
+
+
+/*/////////////////////////////////////// Main Body ///////////////////////////////////*/
+p{
+    font-family: 'Montserrat', sans-serif;;
+    color: rgb(247, 133, 6); 
+    font-size: 5rem;
+}
+
+.form {
+    font-family: 'Montserrat', sans-serif;;
+    color: #32aefe; 
+    font-size: 1rem;
+}
+
+
+/*/////////////////////////////////////// Footer ///////////////////////////////////*/
+.orange{
+    background:rgb(247, 133, 6);  
+  }
+  
+  .footer-text {
+    display: flex;
+    font-size: 1.1em;
+    color: white;
+    margin-left: 910px;
+    margin-top: 10px;
+  }
+  
+  footer{
+  
+      position:fixed;
+      left:0px;
+      bottom:0px;
+      height:50px;
+      width:100%;
+      background:rgb(247, 133, 6);  
+  
+  
+  }
+  
+  @media only screen and (max-width: 600px) { /*As sson as the page is less than 600px, do this*/
+    .footer {
+      font-size: 0.9em;
+      padding: 0;
+    }
+  }
+  
+  /*/////////////////////////////////////// Footer ///////////////////////////////////*/
